@@ -3,3 +3,43 @@ This is going to be the first css file for the web page
 
 adding more to this
 */
+
+body {
+  background-color: #F3DDB5;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: monospace;
+  margin: auto;
+  text-align: center;
+  padding: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: grey;
+}
+
+li{
+  float: left;
+  font-size: 25px;
+  font-variant: small-caps;
+  font-family: monospace;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: black;
+}
