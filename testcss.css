@@ -5,16 +5,22 @@ adding more to this
 */
 
 body {
-  background-color: #F3DDB5;
+  background-color: white;
 }
 
 h1 {
   font-size: 40px;
   font-weight: bold;
-  font-family: monospace;
+  font-family: sans-serif;
   margin: auto;
   text-align: center;
-  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.header {
+  width: 100%;
+  height: 350px;
 }
 
 ul {
@@ -22,24 +28,52 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: grey;
+  background: white;
 }
 
 li{
   float: left;
-  font-size: 25px;
-  font-variant: small-caps;
-  font-family: monospace;
+  font-size: 18px;
+  font-family: arial;
 }
 
 li a{
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 20px;
   text-decoration: none;
 }
 
 li a:hover{
-  background-color: black;
+  border-top: 4px solid #4192f4;
+}
+
+.col{
+  background-color: grey;
+  float: left;
+  margin: 1%;
+  width: 31%;
+  border-radius: 5px;
+}
+
+.col img{
+  width: 50%;
+  height: 50%;
+  padding: 2px;
+}
+
+.col span{
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  float: left;
+  width: 60px;
+  height: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
